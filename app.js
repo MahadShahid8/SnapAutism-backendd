@@ -23,8 +23,7 @@ mongoose.connect(process.env.MONGO_URL, {
 
 
 const app = express()
-const port = 3000
-
+const port = process.env.PORT || 3000
 
 const corsOptions = {
     origin: ['http://localhost:8082', 'http://192.168.1.5:8082', 'http://localhost:3001'],
