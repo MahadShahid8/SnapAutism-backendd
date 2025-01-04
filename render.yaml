@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: snap-autism-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGO_URL
+        sync: false
+      - key: PORT
+        sync: false
