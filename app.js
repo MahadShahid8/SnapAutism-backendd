@@ -26,7 +26,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 const corsOptions = {
-    origin: ['https://snapautism-backendd.onrender.com','http://localhost:8082', 'http://192.168.1.5:8082', 'http://localhost:3001'],
+    origin: ['https://snapautism-backendd.onrender.com','http://localhost:8082', 'http://192.168.1.5:8082', 'http://localhost:3001', 'http://localhost:3000'],
     credentials: true,
   };
 
